@@ -1,0 +1,45 @@
+.chart
+  display: block
+  width: 900px
+  height: 400px
+  margin: 20px auto
+
+.graph-mobile
+  width: 100%
+  margin: auto
+  border-bottom: solid 1px #dfe1e1
+
+@media (max-width: 1080px)
+  .graph-pc
+    display: none
+  .graph-mobile
+    display: block
+
+table
+  width: 100%
+  margin: auto
+th
+  text-align: left
+.th
+  width: 70%
+  overflow-x: hidden
+td
+  padding-right: 10px
+
+.graph-table
+  display: inline-block
+  width: 300px
+  margin: 10px auto
+  padding-bottom: 20px
+
+
+@media (max-width: 1080px) and (min-width: 600px)
+  .graph-table
+    width: 30%
+
+@media (max-width: 680px)
+  .graph-table
+    width: 100%
+    border-bottom: solid 1px #dfe1e1
+  .graph-mobile
+    border-bottom: none
